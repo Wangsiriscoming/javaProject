@@ -1,0 +1,39 @@
+#设置启用的环境
+spring:
+  profiles:
+    active: dev
+
+---
+#开发环境
+spring:
+  profiles: dev
+server:
+  port: 8080
+
+---
+#生产环境
+spring:
+  profiles: pro
+server:
+  port: 8081
+
+---
+#生产环境
+spring:
+  profiles: test
+server:
+  port: 8082
+
+
+---
+
+lesson: Hi! SpringBoot
+
+enterprise:
+  name: wangsir
+  age: 16
+  tel: 13825854782
+  subject:
+    - java   #数组格式
+    - 前端
+    - 大数据

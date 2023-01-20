@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring06_annotation_DI" />
+        <module name="spring03_datasource" />
+        <module name="spring10_aop_case" />
+        <module name="spring09_aop_demo" />
+        <module name="spring05_annotation_bean" />
+        <module name="spring13_transfer" />
+        <module name="spring08_mabatis" />
+        <module name="spring07_annotation_third_bean_manager" />
+        <module name="spring11_aop_advice_data" />
+        <module name="spring01" />
+        <module name="spring02_DI" />
+        <module name="spring04_container" />
+        <module name="spring12_aop_handle_password_case" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring02_bean_instance" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

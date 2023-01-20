@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring02_DI/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_03_container/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring04_container/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring03_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring06_annotation_DI/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring07_annotation_third_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring08_mabatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring09_aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring10_aop_case/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring11_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring12_aop_handle_password_case/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring13_transfer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

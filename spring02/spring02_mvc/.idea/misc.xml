@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../spring01_mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring02_beanload" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring03_request_mapping" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring04_rest_case" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring05_parent/src/main/resources" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring05_SSM" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring06_Interceptor" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring02_beanload/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring01_mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring03_request_mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring04_rest_case/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring06_Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_SSM_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_SSM/spring05_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring05_parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

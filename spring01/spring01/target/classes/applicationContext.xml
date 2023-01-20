@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1.导入spring地坐标spring-context，对应的版本是5.2.10.RELEASE-->
+
+    <!--2.配置bean-->
+    <!--bean标签表示配置bean
+        id属性表示给bean起名字
+        class属性表示给bean定义类型-->
+    <!--<bean id="bookDao1" class="iproject.dao.impl.BookDaoImpl" scope="prototype"/>
+    <bean id="bookService1" class="iproject.service.impl.BookServiceImpl">
+        &lt;!&ndash;7.配置service与dao的关系&ndash;&gt;
+        &lt;!&ndash;property标签表示配置当前bean的属性
+            name属性表示配置哪一个具体的属性 该名称是BookServiceImpl中setXXX方法的xXX(系统自动变换得到)，通过这个set方法将bookDaoImpl对象创建出来
+            ref属性表示参照哪一个bean&ndash;&gt;
+        <property name="bookDao" ref="bookDao1"/>
+    </bean>-->
+
+    <!--方式二：使用静态工厂实例化bean-->
+    <!--使用静态工厂实例化bean-->
+    <!--<bean id="bookDao" class="iproject.factory.BookDaoFactory" factory-method="getBookDao"/>-->
+
+    <!--方式三：使用实例工厂实例化bean-->
+    <!--<bean id="userFactory" class="iproject.factory.UserDaoFactory"/>
+    <bean id="userDao" factory-method="getUserDao" factory-bean="userFactory" />-->
+
+    <!--方式四：使用FactoryBean实例化bean-->
+<!--    <bean id="userDao4" class="iproject.factory.UserDaoFactoryBean"/>-->
+
+    <!--bean的生命周期-->
+    <bean id="bookDao1" class="iproject.dao.impl.BookDaoImpl"/>
+    <bean id="bookService" class="iproject.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao1"/>
+    </bean>
+
+
+</beans>

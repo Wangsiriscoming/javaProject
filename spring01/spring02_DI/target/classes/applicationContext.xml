@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--setter简单数据注入-->
+    <!--<bean id="bookDao" class="iproject.dao.impl.BookDaoImpl">
+        <property name="name" value="wangsir"/>
+        <property name="price" value="200"/>
+    </bean>-->
+
+    <!--构造器注入-->
+    <!--<bean id="bookDao" class="iproject.dao.impl.BookDaoImpl"/>
+    <bean id="userDao" class="iproject.dao.impl.UserDaoImpl"/>
+    <bean id="bookService" class="iproject.service.impl.BookServiceImpl">
+        <constructor-arg name="bookDao" ref="bookDao"/>   &lt;!&ndash;name:是构造方法中参数的名称&ndash;&gt;
+        <constructor-arg name="userDao" ref="userDao"/>   &lt;!&ndash;name:是构造方法中参数的名称&ndash;&gt;
+    </bean>-->
+
+    <!--依赖注入自动装配-->
+    <!--<bean id="userDao" class="iproject.dao.impl.UserDaoImpl"/>
+    &lt;!&ndash;<bean id="userService" class="iproject.service.impl.UserServiceImpl" autowire="byName"/>&ndash;&gt; &lt;!&ndash;通过set方法名在容器中寻找对应id的bean进行装配，不大推荐&ndash;&gt;
+    <bean id="userService" class="iproject.service.impl.UserServiceImpl" autowire="byType"/> &lt;!&ndash;通过类型来查找对应类型的bean&ndash;&gt;-->
+
+    <!--集合注入-->
+    <bean id="carDao" class="iproject.dao.impl.CarDaoImpl">
+        <property name="array">
+            <array>
+                <value>100</value>
+                <value>200</value>
+                <value>300</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>it</value>
+                <value>wang</value>
+                <value>sir</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>it</value>
+                <value>wang</value>
+                <value>sir</value>
+                <value>sir</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="country" value="China"/>
+                <entry key="province" value="guangdong"/>
+                <entry key="city" value="shantou"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="country">China</prop>
+                <prop key="province">guangdong</prop>
+                <prop key="city">shantou</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

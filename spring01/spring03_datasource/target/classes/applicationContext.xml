@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+            ">
+
+    <!--1.开启context命名空间-->
+    <!--2.使用context空间加载properties文件-->
+    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER"/>
+                                                            <!--system-properties-mode：作用是为了防止jdbc.properties文件中的key命名与系统环境变量某些值冲突，导致无法读取到jdbc.properties文件中的数据而去读取系统环境变量中的数据-->
+    <!--<context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>-->  <!--加载所有路径下的所有properties文件-->
+    <!--管理DruidDataSource对象-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="bookDao" class="iproject.dao.impl.BookDaoImpl">
+        <property name="name" value="${username}"/>   <!--系统环境变量中存在一个username的变量，值为HP-->
+    </bean>
+
+</beans>

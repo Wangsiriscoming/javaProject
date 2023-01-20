@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f600177b-dead-4f36-aa9c-da78e19a83d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\IDEA\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2E7fMMzkCILoSzmbBgOlsO9fpPb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring05_parent/src/main/java/project/A_note" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2917329" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\worksapce\spring\spring02" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="project.controller.interceptor" />
+      <recent name="project.config" />
+      <recent name="project.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\worksapce\spring\spring02\spring05_parent\src\main\java\project\A_note" />
+      <recent name="D:\IDEA\worksapce\spring\spring02\spring06_Interceptor\src\main\java\A_note" />
+      <recent name="D:\IDEA\worksapce\spring\spring02\spring05_SSM\src\main\webapp" />
+      <recent name="D:\IDEA\worksapce\spring\spring02\spring04_rest_case\src\main\webapp" />
+      <recent name="D:\IDEA\worksapce\spring\spring02\spring04_rest_case\src\main\java\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookServiceTest.testGetAll">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.App" />
+      <module name="spring02_beanload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring08_mabatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testFetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring05_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.service" />
+      <option name="MAIN_CLASS_NAME" value="project.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testFetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring05_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.service" />
+      <option name="MAIN_CLASS_NAME" value="project.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring02\spring02_mvc [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookServiceTest.testGetAll" />
+        <item itemvalue="JUnit.BookServiceTest.testFetById" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringMvcView">
+    <option name="showControllers" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f600177b-dead-4f36-aa9c-da78e19a83d9" name="Default Changelist" comment="" />
+      <created>1661951494190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661951494190</updated>
+      <workItem from="1661951495749" duration="4021000" />
+      <workItem from="1662034580920" duration="6798000" />
+      <workItem from="1662205443141" duration="6980000" />
+      <workItem from="1662276506168" duration="6899000" />
+      <workItem from="1662343207212" duration="20647000" />
+      <workItem from="1662431669271" duration="13464000" />
+      <workItem from="1662470295867" duration="2366000" />
+      <workItem from="1662518231856" duration="6741000" />
+      <workItem from="1662538840096" duration="1192000" />
+      <workItem from="1662554524165" duration="1425000" />
+      <workItem from="1662555983991" duration="738000" />
+      <workItem from="1662601049858" duration="5340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1662470750712">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1662470750712" />
+    <state x="241" y="117" key="#Project_Structure" timestamp="1662205538609">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="241" y="117" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1662205538609" />
+    <state x="472" y="291" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662449068666">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="472" y="291" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1662449068666" />
+    <state x="1215" y="418" key="#com.intellij.ide.util.MemberChooser" timestamp="1662469584576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1215" y="418" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1662469584576" />
+    <state x="1018" y="669" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1662035944043">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1018" y="669" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1662035944043" />
+    <state x="959" y="437" key="FileChooserDialogImpl" timestamp="1662623198420">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="959" y="437" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1662623198420" />
+    <state width="974" height="195" key="GridCell.Tab.0.bottom" timestamp="1662626417947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="974" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1662626417947" />
+    <state width="974" height="195" key="GridCell.Tab.0.center" timestamp="1662626417947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="974" height="195" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1662626417947" />
+    <state width="974" height="195" key="GridCell.Tab.0.left" timestamp="1662626417947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="974" height="195" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1662626417947" />
+    <state width="974" height="195" key="GridCell.Tab.0.right" timestamp="1662626417947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="974" height="195" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1662626417947" />
+    <state width="286" height="456" key="HiddenNamespacesPopup" timestamp="1662449072924">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="286" height="456" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1662449072924" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1662036216576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1662036216576" />
+    <state x="736" y="459" key="NewModule_or_Project.wizard" timestamp="1662385997101">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="736" y="459" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1662385997101" />
+    <state x="46" y="285" width="1040" height="708" key="SettingsEditor" timestamp="1662623291909">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="46" y="285" width="1040" height="708" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1662623291909" />
+    <state x="1136" y="518" width="711" height="524" key="StructurePopup" timestamp="1662298004462">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1136" y="518" width="711" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1662298004462" />
+    <state x="-6" y="498" width="1672" height="472" key="new project wizard" timestamp="1662626415610">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-6" y="498" width="1672" height="472" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1662626415610" />
+    <state x="1063" y="369" key="run.anything.popup" timestamp="1662452534880">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1063" y="369" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1662452534880" />
+    <state x="1078" y="371" width="672" height="678" key="search.everywhere.popup" timestamp="1662448891957">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1078" y="371" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1662448891957" />
+  </component>
+</project>
